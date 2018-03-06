@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52d70b2b-5ecb-4b07-87e9-89d8a4055e2d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.styl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylus/base.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -155,6 +166,7 @@
         <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/web/css/index.css" />
         <option value="$PROJECT_DIR$/stylus/base.styl" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -167,7 +179,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1931" />
     <option name="height" value="1056" />
@@ -229,17 +241,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\nativeRepository\responsive" />
+      <recent name="D:\WEB\responsive\web\js\vendor" />
+      <recent name="D:\WEB\responsive\web\js" />
+      <recent name="D:\WEB\responsive\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WEB\responsive\web\js\vendor\owlcarousel\assets" />
       <recent name="D:\WEB\responsive\web\js\vendor" />
       <recent name="D:\WEB\responsive\web\js\vendor\owlcarousel" />
       <recent name="D:\WEB\responsive\web\js" />
       <recent name="D:\WEB\responsive\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WEB\responsive\web\js\vendor" />
-      <recent name="D:\WEB\responsive\web\js" />
-      <recent name="D:\WEB\responsive\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,12 +307,12 @@
       <workItem from="1519953909494" duration="632000" />
       <workItem from="1520235756139" duration="93000" />
       <workItem from="1520315025002" duration="3080000" />
-      <workItem from="1520321424086" duration="264000" />
+      <workItem from="1520321424086" duration="481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139873000" />
+    <option name="totallyTimeSpent" value="140090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,7 +324,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21917808" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -342,7 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylus/index.css.map" />
     <entry file="file://$PROJECT_DIR$/test.scss" />
     <entry file="file://$PROJECT_DIR$/test.css.map" />
     <entry file="file://$PROJECT_DIR$/test.css" />
@@ -580,6 +592,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
