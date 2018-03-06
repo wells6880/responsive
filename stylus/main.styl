@@ -1,0 +1,479 @@
+@import "mixin.styl"
+header
+  .top
+    line-height 30px
+    background #555
+    overflow hidden
+    color #fff
+    padding 0 10px
+    .tel
+      float left
+      font-size 12px
+    .nav
+      float right
+      font-size 0
+      .item
+        display inline-block
+        font-size 12px
+        vertical-align top
+      .split
+        display inline-block
+        font-size 10px
+        margin 0 10px
+        line-height 28px
+        vertical-align top
+    @media only screen and (max-width 480px)
+      .tel
+        display none
+      .nav
+        ul
+          li
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6),
+            &:nth-child(7)
+              display none
+  .bottom
+    line-height 60px
+    background #f7f7f7
+    overflow hidden
+    color rgb(124,122,123)
+    padding 0 20px 0 10px
+    .logo
+      float left
+      width 150px
+      height 35px
+      bg-img("logo")
+      background-size 150px 35px
+      margin 12.5px 0
+    .nav
+      float right
+      font-size 0
+      .item
+        display inline-block
+        font-size 18px
+        vertical-align top
+      .split
+        display inline-block
+        font-size 16px
+        margin 0 10px
+        line-height 58px
+        vertical-align top
+    @media only screen and (max-width 800px)
+      @media only screen and (max-width 481px)
+        .nav
+          .item:first-child
+            display none
+      .logo
+        float none
+        display block
+        margin 12.5px auto 0
+      .nav
+        float none
+        margin 0 auto
+        text-align center
+        .item
+          font-size 16px
+          margin-right 20px
+          &:last-child
+            margin 0
+        .split
+          display none
+.container
+  .statistics
+    padding 0 30px
+    background rgb(125,115,101)
+    overflow hidden
+    .left
+      float left
+      font-size 0
+      .content
+        display inline-block
+        font-size 0
+        color #fff
+        padding 14px 0
+        &:last-child
+          margin-left 10px
+        .text
+          font-size 14px
+        .num
+          font-size 20px
+          letter-spacing 3px
+          color orange
+          padding 5px 10px
+          text-align center
+          margin 0 10px
+          background rgb(242,241,240)
+          border 1px solid #000
+          border-radius 3px
+          box-shadow inset 1px 2px 1px #555
+        span
+          line-height 20px
+          display inline-block
+    .right
+      float right
+      .report
+        color #fff
+        font-size 14px
+        line-height 60px
+    @media only screen and (min-width 481px) and (max-width 800px)
+      padding 0 20px
+      @media only screen and (min-width 481px) and (max-width 550px)
+        padding 0 5px
+      .left
+        .content
+          padding 0
+          .text
+            font-size 12px
+            line-height 60px
+          .num
+            font-size 16px
+            margin 0 5px
+            padding 0
+            background none
+            border none
+            box-shadow none
+            letter-spacing normal
+      .right
+        .report
+          font-size 12px
+    @media only screen and (max-width 480px)
+      .left
+        float none
+        .content
+          display block
+          padding 0
+          text-align center
+          &:last-child
+            margin-left 0
+          .text
+            font-size 12px
+            line-height 40px
+          .num
+            font-size 16px
+            margin 0 5px
+            padding 0
+            background none
+            border none
+            box-shadow none
+            letter-spacing normal
+      .right
+        float none
+        .report
+          display block
+          font-size 12px
+          text-align center
+          line-height 40px
+  .carousel
+    //width 100%
+    width 90%
+    margin 20px auto
+    .item
+      background #fff
+      box-shadow 0 0 4px #ccc
+      padding 10px
+  .overview
+    width 90%
+    margin 20px auto
+    text-align center
+    font-size 0
+    display flex
+    .item
+      flex 1
+      display flex
+      background #fff
+      box-shadow 0 0 4px #ccc
+      margin-right 10px
+      padding 10px
+      font-size 14px
+      &:last-child
+        margin 0
+      .title
+        flex 1
+        font-size 34px
+        font-weight bold
+        color orange
+        align-self center
+      .content
+        flex 1.5
+        align-self center
+        .text
+          font-size 14px
+          line-height 20px
+          text-align left
+          color #999
+    @media only screen and (min-width 481px) and (max-width 800px)
+      .item
+        display inline-block
+        .title
+          font-size 28px
+          line-height 34px
+        .content
+          .text
+            font-size 12px
+            line-height 18px
+            text-align center
+    @media only screen and (max-width 480px)
+      display block
+      .item
+        display flex
+        margin-right 0
+        margin-bottom 10px
+        .title
+          line-height 34px
+  .notice
+    width 90%
+    margin 0 auto 20px
+    line-height 30px
+    background #fff
+    color #999
+    padding 0 10px
+    box-sizing border-box
+    display flex
+    font-size 0
+    box-shadow 0 0 4px #ccc
+    .date
+      font-size 12px
+      margin 0 10px
+    .title
+      font-size 12px
+    .text
+      font-size 12px
+      color #000
+      display inline-block
+      flex 1
+      white-space nowrap
+      text-overflow ellipsis
+      overflow hidden
+      margin-right 10px
+      cursor pointer
+      &:hover
+        color rgb(0,170,240)
+    .more
+      font-size 12px
+      color orange
+      cursor pointer
+      &:hover
+        color #ffcc33
+    @media only screen and (max-width 480px)
+      .date
+        display none
+  .product
+    width 90%
+    margin 0 auto 20px
+    border-top 2px solid orange
+    box-shadow 0 0 4px #ccc
+    display flex
+    .product-type
+      flex 1
+      background rgb(245,249,250)
+      text-align center
+      .title
+        color #555555
+        font-size 22px
+        margin-top 30px
+      .content
+        font-size 16px
+        color rgb(124,122,123)
+        margin-top 40px
+        .text
+          display block
+          margin-top 20px
+    .product-content
+      flex 4
+      background #fff
+      border-left 1px solid rgba(7,17,27,.1)
+      .item
+        display flex
+        border-bottom 1px solid rgba(7,17,27,.1)
+        text-align center
+        &:last-child
+          border none
+        .time
+          flex 1.2
+          align-self center
+          font-size 28px
+          color #999
+          .unit
+            font-size 16px
+            color #000
+          .extra
+            font-size 12px
+            color #aaa
+            display block
+            margin-top 10px
+        .content
+          flex 2
+          border-left 1px solid rgba(7,17,27,.1)
+          border-right 1px solid rgba(7,17,27,.1)
+          padding 20px
+          align-self center
+          display flex
+          text-align center
+          .detail,.price
+            flex 1
+            line-height 30px
+            .text
+              font-size 16px
+            .num
+              font-size 22px
+              color orange
+            .unit
+              font-size 12px
+              color #aaa
+        .btn
+          flex .7
+          align-self center
+          a
+            font-size 14px
+            display inline-block
+            width 70%
+            line-height 50px
+            background orange
+            border-radius 5px
+            color #fff
+            &.disabled
+              background #ccc
+    @media only screen and (max-width 800px)
+      display block
+      @media only screen and (max-width 480px)
+        .product-content
+          border none
+          font-size 0
+          .item
+            display block
+            border-bottom 1px solid rgba(7,17,27,.1)
+            text-align center
+            padding 20px 0
+            &:last-child
+              border none
+            .time
+              width 25%
+              display inline-block
+              vertical-align top
+              font-size 18px
+              line-height 30px
+              .unit
+                font-size 12px
+              .extra
+                margin-top 0
+            .content
+              width 74%
+              display inline-block
+              border none
+              padding 0
+              .detail,.price
+                display inline-block
+              .price
+                margin-left 20px
+            .btn
+              width 100%
+              margin-top 20px
+              a
+                width 90%
+                line-height 40px
+      .product-type
+        padding 30px
+        .title
+          display inline-block
+          margin 0
+        .content
+          display inline-block
+          margin 0
+          .text
+            display inline-block
+            margin 0
+            font-size 12px
+      .product-content
+        .item
+          .time
+            font-size 24px
+            .unit
+              font-size 14px
+          .content
+            .detail,.price
+              .text
+                font-size 12px
+              .num
+                font-size 20px
+  .footer
+    background #fff
+    box-shadow 0 0 4px #ccc
+    padding 20px 0
+    .footer-content
+      width 90%
+      margin 20px auto
+      display flex
+      .logo
+        flex 1.5
+        bg-img("logo")
+        background-size 150px 35px
+        background-repeat no-repeat
+        filter grayscale(100%)
+      .nav-item
+        flex 1
+        line-height 30px
+        .title
+          a
+            font-size 16px
+            color #000
+        a
+          font-size 14px
+          color #666
+    @media only screen and (max-width 800px)
+      @media only screen and (max-width 481px)
+        .footer-content
+          .nav-item
+            .title
+              a
+                font-size 12px
+            a
+              font-size 12px
+      .footer-content
+        .logo
+          display none
+footer
+  text-align center
+  margin-top 30px
+  .copyright-icon
+    text-align center
+    .icon
+      display inline-block
+      background url("../img/cert1.png") no-repeat
+      background-size 466px 447px
+      &.icon-zfywxk
+        width 38px
+        height 27px
+        background-position -369px -45px
+      &.icon-pcirk
+        width 78px
+        height 27px
+        background-position -110px -96px
+      &.icon-visayz
+        width 36px
+        height 27px
+        background-position -426px -90px
+      &.icon-vsjmfw
+        width 63px
+        height 27px
+        margin-right 13px
+        background-position -401px -186px;
+      &.icon-wlgs
+        width 22px
+        height 27px
+        background-position -48px -48px
+      &.icon-rzcx
+        width 75px
+        height 27px
+        background-position 0 -320px
+      &.icon-gs
+        width 30px
+        height 30px
+        margin-right 0
+        background url("../img/cert2.png") no-repeat
+        background-size 30px
+  .copyright-text
+    display inline-block
+    font-size 12px
+    color #aaa
+    line-height 40px
