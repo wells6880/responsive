@@ -3,6 +3,6 @@ npm-debug.log*
 
 node_modules/
 
-web/css/index.css
+#web/css/index.css
 
 .idea/
